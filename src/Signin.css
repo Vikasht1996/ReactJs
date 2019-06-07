@@ -1,0 +1,38 @@
+.signin{
+    background-color: black;
+    padding-top: 20px;
+    height: 400px;
+    width: 100%;
+   
+}
+input{
+    height: 30px;
+    width: 100%;
+}
+.log
+{
+    height: 50px;
+    width: 100%;
+    background-color:lightgreen;
+    color: white;
+}
+form
+{
+    background-color: white;
+    padding: 30px;
+    height: 300px;
+    width: 300px;
+    text-align: left; 
+    margin-left: 29px;  
+}
+.anchor{
+    color: black;
+    margin-left: 73px;
+}
+p{
+    color: white;
+}
+a
+{
+    color: white;
+}

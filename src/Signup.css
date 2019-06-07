@@ -1,0 +1,33 @@
+.sign
+{
+background-color: black;
+text-align: center;
+height: 600px;
+width: 100%;
+padding-top: 20px;
+
+}
+.formsec
+{
+    background-color: white;
+    padding: 30px;
+    margin-left: 37%;
+    height: 388px;
+    width: 300px;
+    text-align: left;  
+}
+label{
+    text-align: left;
+}
+.one
+{
+    margin-top: 10px;
+}
+.two
+{
+    margin-top: 20px;
+    border-radius: 4px;
+    height: 31px;
+    widows: 75px;
+    background-color:skyblue
+}
