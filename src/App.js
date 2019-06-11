@@ -1,15 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Signup from './Signup';
-import Signin from './Signin';
+import Cyclemethods from './Task1/Cyclemethods';
 
 function App() {
   return (
     <div>
      
-      <Signup/><br></br><br></br><br></br>
-      <Signin/>
+      {/* <Signup/><br></br><br></br><br></br>
+      <Signin/> */}
+      <Cyclemethods/>
     </div>
   );
 }
