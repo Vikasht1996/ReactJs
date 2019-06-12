@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import '../Signup.css';
+import './Signup.css';
+import Signin from './Signin';
 
 class Cyclemethods extends Component {
     constructor(props)
@@ -20,6 +21,7 @@ class Cyclemethods extends Component {
  
     }
     render() {
+        console.log('Lifecycle render');
         return (
             <div>
                 <div className="sign">
@@ -36,6 +38,8 @@ class Cyclemethods extends Component {
           <button className="two">Create My Account</button>
      </form>
     </div>
+
+            <Signin/>
                 
             </div>
         );

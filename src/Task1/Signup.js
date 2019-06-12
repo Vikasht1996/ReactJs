@@ -1,22 +1,23 @@
 import React from 'react';
 import './Signup.css';
-
+import Signin from './Signin'
 
 function Signup() {
   return (
     <div className="sign">
         <form className="formsec">
             <h1>Sign Up</h1>
-                    <label for="Name"><b>Name</b></label><br></br>
+                    <label ><b>Name</b></label><br></br>
 					<input type="text"  name="Name" className="one" /><br></br>
-					<label for="psw"><b>Email</b></label><br></br>
+					<label ><b>Email</b></label><br></br>
 					<input type="text"  name="email" className="one" /><br></br>
-                    <label for="email"><b>Password</b></label><br></br>
+                    <label ><b>Password</b></label><br></br>
 					<input type="password"  name="password" className="one" /><br></br>
-					<label for="psw"><b>Confirmation</b></label><br></br>
+					<label ><b>Confirmation</b></label><br></br>
 					<input type="password"  name="cpsw" className="one" /><br></br> 
-          <button className="two">Create My Account</button>
-     </form>
+          <button className="two"><b>Create My Account</b></button>
+     </form><br/><br/><br/><br/>
+     <Signin/>
     </div>
   );
 }
