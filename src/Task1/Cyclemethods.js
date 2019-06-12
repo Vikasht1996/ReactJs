@@ -35,7 +35,7 @@ class Cyclemethods extends Component {
 					<input type="password"  name="password" className="one" /><br></br>
 					<label ><b>Confirmation</b></label><br></br>
 					<input type="password"  name="cpsw" className="one" /><br></br> 
-          <button className="two">Create My Account</button>
+          <button className="two"><b>Create My Account</b></button>
      </form>
     </div>
 
