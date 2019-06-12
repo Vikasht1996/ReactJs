@@ -10,7 +10,6 @@ class Classcomponent3 extends Component {
             <Functioncomponent3 dob="28-02-1993">Arun</Functioncomponent3>
             <Functioncomponent3 dob="19-03-1991">Janendra</Functioncomponent3>
             <Functioncomponent3 dob="02-09-1996">Vikas</Functioncomponent3>
-
             </div>
         );
     }

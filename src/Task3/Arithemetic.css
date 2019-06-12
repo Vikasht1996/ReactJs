@@ -1,0 +1,15 @@
+
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.add
+{
+    height: 40%;
+    width: 200%;
+    background-color: #10e42a;
+    color: white;
+    font-weight: bold;
+}

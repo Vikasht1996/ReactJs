@@ -14,7 +14,6 @@ class Classcomponent1 extends Component {
             <Functioncomponent1 age="22">Vikas</Functioncomponent1><br/><br/><br/>
             <Classcomponent2/><br/><br/><br/>
             <Classcomponent3/>
-
             </div>
         );
     }

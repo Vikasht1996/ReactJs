@@ -10,7 +10,6 @@ class Classcomponent2 extends Component {
             <Functioncomponent2 city="Mysore">Arun</Functioncomponent2>
             <Functioncomponent2 city="Pandavapura">Janendra</Functioncomponent2>
             <Functioncomponent2 city="Mandya">Vikas</Functioncomponent2>
-
             </div>
         );
     }
