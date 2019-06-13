@@ -15,7 +15,7 @@ class Setstatebind extends Component {
     {
         this.setState({ Name:'Vikas',age:'22'});
     }
-    handleChanges
+    // handleChanges
     render() {
         return (
                 <div>
