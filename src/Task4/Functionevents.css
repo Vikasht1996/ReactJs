@@ -1,25 +1,25 @@
-input{
+.text{
     width: 250px;
     height: 30px;
     margin-top: 40px;
 }
-button{
+.onclk{
     margin-top: 30px;
     height: 40px;
     width: 153px;
     /* margin-right: 99px; */
     background-color: purple;
 }
-.one
+.change
 {
     background-color: gray;
     height: 500px;
     width: 600px;
     margin-top: 10px;
 }
-h1{
+.head1{
     color:lime;
 }
-h2{
+.head2{
     color: white;
 }

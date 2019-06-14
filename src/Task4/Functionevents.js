@@ -20,11 +20,11 @@ class Functionevents extends Component {
     render() {
         return (
             <div>
-               <center><div className="one"><h2>{this.state.name}</h2>
-                <input type="text" value="ABC"/><br/>
-                <button onClick={this.changeName}>ChangeName</button>
-                      <h1>{this.state.username}</h1>
-      <input
+               <center><div className="change"><h2 className="head2">{this.state.name}</h2>
+                <input className="text" type="text" value="ABC"/><br/>
+                <button className="onclk" onClick={this.changeName}>ChangeName</button>
+                      <h1 className="head1">{this.state.username}</h1>
+      <input className="text"
         type='text'
         onChange={this.myChangeHandler}
       />

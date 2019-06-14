@@ -13,7 +13,7 @@ function Signin() {
           <button className="log"><b>Login</b></button><br></br><br></br>
           <a href="" className="anchor">forget your passwors?</a>
           </form>
-          <p>Don't have an account?<a href="">Signup</a></p></center>
+          <p className="prg">Don't have an account?<a href="">Signup</a></p></center>
           
     </div>
   );
