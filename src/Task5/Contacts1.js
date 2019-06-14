@@ -1,5 +1,5 @@
 import React from 'react';
-const Contacts1=({hello})=>{
+const Contacts1=({hello,rest})=>{
     return(
         <div>
             <center><h1>Contact List</h1></center>
@@ -41,6 +41,14 @@ const Contacts1=({hello})=>{
                 </div>
                 </div>
             {/* ))} */}
+            <div className="card">
+                    <div className="card-body">
+                    <p className="card-title">{rest.userId}</p>
+                    <p className="card-title">{rest.id}</p>
+                    <p className="card-title">{rest.title}</p>
+                    <p className="card-title">{rest.body}</p>  
+                </div>
+                </div>
         </div>
     )
 }
